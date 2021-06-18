@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "required":[
+      "username",
+      "password",
+      "name",
+      "email"
+    ],
+    "properties":{
+      "username":{
+        "type":"string"
+      },
+      "password":{
+        "type":"string"
+      },
+      "name":{
+        "type":"string"
+      },
+      "email":{
+        "type":"string"
+      }
+    },
+    "additionalProperties":true
+  }

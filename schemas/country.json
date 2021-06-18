@@ -1,0 +1,22 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1616899020.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"country"
+	],
+	"properties": {
+		"country": {
+			"$id": "#root/country", 
+			"title": "Country", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Vietnam"
+			],
+			"pattern": "^.*$"
+		}
+	}
+}

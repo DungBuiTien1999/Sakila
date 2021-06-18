@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "required":[
+      "title",
+      "language_id"
+    ],
+    "properties":{
+      "title":{
+        "type":"string"
+      },
+      "language_id":{
+        "type":"integer"
+      }
+    },
+    "additionalProperties":true
+  }
